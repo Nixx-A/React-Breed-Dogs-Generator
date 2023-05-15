@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gradient {
+
+  background-color: rgb(161, 161, 170);
+  background-image: radial-gradient(at 100% 0%, rgb(3, 105, 161) 0, transparent 54%), radial-gradient(at 11% 34%, rgb(252, 211, 77) 0, transparent 18%), radial-gradient(at 41% 13%, rgb(2, 132, 199) 0, transparent 14%), radial-gradient(at 13% 6%, rgb(214, 211, 209) 0, transparent 31%), radial-gradient(at 83% 28%, rgb(254, 243, 199) 0, transparent 10%), radial-gradient(at 8% 17%, rgb(212, 212, 212) 0, transparent 87%), radial-gradient(at 23% 78%, rgb(30, 64, 175) 0, transparent 21%);
+
+}
+
+.title-font {
+  font-family: 'Ysabeau', sans-serif;
+}
